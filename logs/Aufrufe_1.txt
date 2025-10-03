@@ -1,0 +1,4 @@
+Log Datei
+=====================
+call: 2 - date: 2025-10-03 17:58:42 - what: formen_als_pdf.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\formen_als_pdf.py
+call: 1 - date: 2025-10-03 17:58:23 - what: log.py - Script: C:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py

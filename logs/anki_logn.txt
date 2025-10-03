@@ -1,0 +1,14 @@
+Anki log
+=====================
+call: 12 - date: 2025-10-03 18:07:14 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 11 - date: 2025-10-03 18:07:00 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 10 - date: 2025-10-03 18:05:32 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 9 - date: 2025-10-03 18:04:36 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 8 - date: 2025-10-03 18:04:36 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 7 - date: 2025-10-03 18:04:11 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 6 - date: 2025-10-03 18:04:11 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 5 - date: 2025-10-03 17:28:09 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 4 - date: 2025-10-03 17:28:09 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 3 - date: 2025-10-03 17:27:13 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 2 - date: 2025-10-03 17:25:39 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 1 - date: 2025-10-03 17:25:10 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py

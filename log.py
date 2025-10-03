@@ -10,7 +10,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 logs_dir = os.path.join(script_dir, "logs")
 
 # 3. "Baue den kompletten Pfad zur Log-Datei"
-dateiname = os.path.join(logs_dir, "Aufrufe_.txt")
+dateiname = os.path.join(logs_dir, "03.10.2025.txt")
 
 # 4. "Falls der logs-Ordner nicht da ist, erstelle ihn"
 os.makedirs(logs_dir, exist_ok=True)
@@ -19,13 +19,13 @@ os.makedirs(logs_dir, exist_ok=True)
 
 def create_log_file():
     try:
-        with open(dateiname, "x") as file:
+        with open(dateiname, "x", encoding='utf-8') as file:
             file.write("Log Datei\n")
             file.write("=====================\n")
     except FileExistsError:
         pass
 
-create_log_file()
+# NICHT beim Import ausführen! Nur bei Bedarf
 
 # prepend new entries (newest at top)
 import datetime
@@ -33,25 +33,37 @@ from itertools import count
 import time
 def count_calls():
     try:
-        with open(dateiname, "r") as file:
-            lines = file.readlines()
-            count = len(lines) - 2  # Subtract header lines
+        # Versuche erst UTF-8, dann Windows-Encoding als Fallback
+        try:
+            with open(dateiname, "r", encoding='utf-8') as file:
+                lines = file.readlines()
+        except UnicodeDecodeError:
+            print("UTF-8 failed, trying Windows encoding...")
+            with open(dateiname, "r", encoding='cp1252') as file:
+                lines = file.readlines()
+        count = len(lines) - 2  # Subtract header lines
     except FileNotFoundError:
-        print("Datei nicht gefunden")
-        time.sleep(2)  # Kurze Pause, um sicherzustellen, dass die Datei erstellt wird
+        print("Log-Datei nicht gefunden, erstelle neue...")
+        create_log_file()  # Erstelle die Datei erst jetzt
         count = 0
-        lines = []
+        lines = ["Log Datei\n", "=====================\n"]
     
     count += 1
     date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # old: new_entry = f"Aufruf: {count} - Datum: {date}\n"
-
-### 
-# bei new entry - add calling script
-    # Gehe 2 Ebenen zurück: count_calls() <- run() <- eigentliches_programm.py
-    calling_script = inspect.getframeinfo(inspect.currentframe().f_back.f_back).filename
-    #what = #only the last name of the skript
-    what = calling_script.split("/")[-1].split("\\")[-1]  # Handle
+    
+    ### 
+    # SICHERER Aufruf - verhindere Crash bei fehlendem f_back
+    try:
+        frame = inspect.currentframe()
+        if frame and frame.f_back and frame.f_back.f_back:
+            calling_script = inspect.getframeinfo(frame.f_back.f_back).filename
+        else:
+            calling_script = "unknown"
+    except:
+        calling_script = "error_getting_caller"
+    
+    # Nur den Dateinamen extrahieren
+    what = os.path.basename(calling_script)
     new_entry = f"call: {count} - date: {date} - what: {what} - Script: {calling_script}\n"
 
     # Neue Einträge OBEN einfügen (nach Header)
@@ -64,8 +76,8 @@ def count_calls():
         # Falls keine Header da sind
         new_content = [new_entry]
     
-    # Datei komplett neu schreiben
-    with open(dateiname, "w") as file:
+    # Datei komplett neu schreiben MIT UTF-8 ENCODING
+    with open(dateiname, "w", encoding='utf-8') as file:
         file.writelines(new_content)
     
     return count

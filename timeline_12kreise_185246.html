@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline - 12 Kreise</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+            background: white;
+            position: relative;
+        }
+        .titel { 
+            text-align: center; 
+            font-size: 28px; 
+            margin-bottom: 30px;
+            color: black;
+            font-weight: bold;
+        }
+        .timeline-container {
+            position: relative;
+            width: 1000px;
+            height: 800px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            background: #f9f9f9;
+        }
+        .kreis-element {
+            position: absolute;
+            text-align: center;
+        }
+        .nummer {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: black;
+        }
+        .kreis {
+            width: 60px;
+            height: 60px;
+            border: 3px solid black;
+            border-radius: 50%;
+            background-color: white;
+            display: inline-block;
+        }
+        @media print {
+            body { margin: 0; padding: 10px; }
+            .timeline-container { width: 95%; height: 90vh; }
+        }
+    </style>
+</head>
+<body>
+    <div class="titel">📅 Meine Timeline - 12 Kreise OHNE Überschneidungen 📅</div>
+    <div class="timeline-container">
+        <div class="kreis-element" style="left: 634px; top: 287px;">
+            <div class="nummer">1</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 395px; top: 132px;">
+            <div class="nummer">2</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 296px; top: 310px;">
+            <div class="nummer">3</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 482px; top: 355px;">
+            <div class="nummer">4</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 260px; top: 449px;">
+            <div class="nummer">5</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 173px; top: 363px;">
+            <div class="nummer">6</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 180px; top: 162px;">
+            <div class="nummer">7</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 624px; top: 150px;">
+            <div class="nummer">8</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 643px; top: 472px;">
+            <div class="nummer">9</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 506px; top: 210px;">
+            <div class="nummer">10</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 387px; top: 452px;">
+            <div class="nummer">11</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 518px; top: 478px;">
+            <div class="nummer">12</div>
+            <div class="kreis"></div>
+        </div>
+    </div>
+</body>
+</html>
