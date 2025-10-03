@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline - 6 Kreise</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+            background: white;
+            position: relative;
+        }
+        .titel { 
+            text-align: center; 
+            font-size: 28px; 
+            margin-bottom: 30px;
+            color: black;
+            font-weight: bold;
+        }
+        .timeline-container {
+            position: relative;
+            width: 1000px;
+            height: 800px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            background: #f9f9f9;
+        }
+        .kreis-element {
+            position: absolute;
+            text-align: center;
+        }
+        .nummer {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: black;
+        }
+        .kreis {
+            width: 60px;
+            height: 60px;
+            border: 3px solid black;
+            border-radius: 50%;
+            background-color: white;
+            display: inline-block;
+        }
+        .wabe {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
+        @media print {
+            body { margin: 0; padding: 10px; }
+            .timeline-container { width: 95%; height: 90vh; }
+        }
+    </style>
+</head>
+<body>
+    <div class="titel">tipp Sprache laden - 6 Kreise</div>
+    <div class="timeline-container">
+        <div class="kreis-element" style="left: 155px; top: 327px;">
+            <div class="nummer">1</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 443px; top: 136px;">
+            <div class="nummer">2</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 330px; top: 315px;">
+            <div class="nummer">3</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 510px; top: 302px;">
+            <div class="nummer">4</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 674px; top: 203px;">
+            <div class="nummer">5</div>
+            <div class="kreis"></div>
+        </div>
+        <div class="kreis-element" style="left: 165px; top: 177px;">
+            <div class="nummer">6</div>
+            <div class="kreis"></div>
+        </div>
+    </div>
+</body>
+</html>
