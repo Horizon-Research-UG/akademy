@@ -69,9 +69,35 @@ def frage_nach_timeline_details():
         except ValueError:
             print("❌ Bitte eine gültige Zahl eingeben!")
     
+    # Schritt 3: Form auswählen
+    print("\n🎨 SCHRITT 3: Welche Form sollen die Elemente haben?")
+    print("💡 Wählen Sie zwischen:")
+    print("   🔵 1 → Kreise (klassisch und rund)")
+    print("   🔶 2 → Waben (sechseckige Waben-Form)")
+    
+    while True:
+        try:
+            form_eingabe = input("\n➤ Formwahl (1 oder 2): ").strip()
+            form_nummer = int(form_eingabe)
+            
+            if form_nummer == 1:
+                form_typ = "kreis"
+                print("✅ Kreise gewählt! Klassisch und schön rund!")
+                break
+            elif form_nummer == 2:
+                form_typ = "wabe"
+                print("✅ Waben gewählt! Sechseckige Waben-Form!")
+                break
+            else:
+                print("⚠️  Bitte 1 für Kreise oder 2 für Waben eingeben!")
+                
+        except ValueError:
+            print("❌ Bitte eine gültige Zahl eingeben!")
+    
     return {
         'ueberschrift': ueberschrift,
-        'anzahl_kreise': anzahl
+        'anzahl_kreise': anzahl,
+        'form_typ': form_typ
     }
 
 ########################################
@@ -82,10 +108,11 @@ def run():
     """Startet den Timeline-Generator."""
     print("📅 Timeline-Generator startet...")
     
-    # Benutzer nach Überschrift und Anzahl fragen
+    # Benutzer nach Überschrift, Anzahl und Form fragen
     timeline_details = frage_nach_timeline_details()
     ueberschrift = timeline_details['ueberschrift']
     anzahl_kreise = timeline_details['anzahl_kreise']
+    form_typ = timeline_details['form_typ']
     
     # Eindeutigen Dateinamen erstellen
     zeitstempel = datetime.datetime.now().strftime("%H%M%S")
@@ -93,10 +120,11 @@ def run():
     safe_titel = "".join(c for c in ueberschrift if c.isalnum() or c in (' ', '-', '_')).strip()[:20]
     html_name = f"timeline_{safe_titel}_{anzahl_kreise}kreise_{zeitstempel}.html"
     
-    print(f"📄 Erstelle Timeline '{ueberschrift}' mit {anzahl_kreise} Kreisen: {html_name}")
+    form_name = "Kreisen" if form_typ == "kreis" else "Waben"
+    print(f"📄 Erstelle Timeline '{ueberschrift}' mit {anzahl_kreise} {form_name}: {html_name}")
     
     # HTML-Timeline erstellen
-    erfolg = erstelle_html_timeline(html_name, anzahl_kreise, ueberschrift)
+    erfolg = erstelle_html_timeline(html_name, anzahl_kreise, ueberschrift, form_typ)
     
     if erfolg:
         # HTML öffnen
@@ -111,16 +139,17 @@ def run():
 # HTML-TIMELINE ERSTELLEN
 ########################################
 
-def erstelle_html_timeline(dateiname, anzahl_kreise, ueberschrift):
+def erstelle_html_timeline(dateiname, anzahl_kreise, ueberschrift, form_typ="kreis"):
     """
-    Erstellt eine HTML-Timeline mit der gewünschten Anzahl Kreise und Überschrift.
-    Kreise überschneiden sich nicht und sind zufällig verteilt!
+    Erstellt eine HTML-Timeline mit der gewünschten Anzahl Formen und Überschrift.
+    Formen (Kreise oder Waben) überschneiden sich nicht und sind zufällig verteilt!
     """
     try:
         import random
         import math
         
-        print(f"📅 Erstelle Timeline mit {anzahl_kreise} perfekt verteilten Kreisen (OHNE Überschneidungen)...")
+        form_name = "Kreisen" if form_typ == "kreis" else "Waben"
+        print(f"📅 Erstelle Timeline mit {anzahl_kreise} perfekt verteilten {form_name} (OHNE Überschneidungen)...")
         
         # PERFEKTE Positionen ohne Überschneidungen berechnen
         kreise = []
@@ -233,6 +262,11 @@ def erstelle_html_timeline(dateiname, anzahl_kreise, ueberschrift):
             background-color: white;
             display: inline-block;
         }
+        .wabe {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
         @media print {
             body { margin: 0; padding: 10px; }
             .timeline-container { width: 95%; height: 90vh; }
@@ -240,15 +274,25 @@ def erstelle_html_timeline(dateiname, anzahl_kreise, ueberschrift):
     </style>
 </head>
 <body>
-    <div class="titel">📅 """ + ueberschrift + """ - """ + str(anzahl_kreise) + """ Kreise 📅</div>
+    <div class="titel">""" + ueberschrift + """ - """ + str(anzahl_kreise) + """ """ + ("Kreise" if form_typ == "kreis" else "Waben") + """</div>
     <div class="timeline-container">
 """
         
-        # Alle Kreise an zufälligen Positionen platzieren
+        # Alle Formen an zufälligen Positionen platzieren
         for kreis in kreise:
+            if form_typ == "kreis":
+                form_html = '<div class="kreis"></div>'
+            else:  # wabe
+                form_html = '''<svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>'''
+            
             html_inhalt += f'''        <div class="kreis-element" style="left: {kreis['x']}px; top: {kreis['y']}px;">
             <div class="nummer">{kreis['nummer']}</div>
-            <div class="kreis"></div>
+            {form_html}
         </div>
 '''
         

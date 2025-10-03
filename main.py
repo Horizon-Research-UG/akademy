@@ -22,7 +22,11 @@ time.sleep(2)
 
 
 
-
+#################
+# run menu
+#################
+import menu
+menu.run()
 
 
 
@@ -33,15 +37,10 @@ time.sleep(2)
 
 
 #################################
-# formen als pdf
-################################
-import formen_als_pdf
-formen_als_pdf.run()
-print("formen run in main check")
-time.sleep(3)
-
-
-
+# ausmalbuch
+#################################
+import ausmalbuch_einfach as ausmalbuch
+ausmalbuch.run()
 
 
 

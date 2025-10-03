@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline - 5 Kreise</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+            background: white;
+            position: relative;
+        }
+        .titel { 
+            text-align: center; 
+            font-size: 28px; 
+            margin-bottom: 30px;
+            color: black;
+            font-weight: bold;
+        }
+        .timeline-container {
+            position: relative;
+            width: 1000px;
+            height: 800px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            background: #f9f9f9;
+        }
+        .kreis-element {
+            position: absolute;
+            text-align: center;
+        }
+        .nummer {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: black;
+        }
+        .kreis {
+            width: 60px;
+            height: 60px;
+            border: 3px solid black;
+            border-radius: 50%;
+            background-color: white;
+            display: inline-block;
+        }
+        .wabe {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
+        @media print {
+            body { margin: 0; padding: 10px; }
+            .timeline-container { width: 95%; height: 90vh; }
+        }
+    </style>
+</head>
+<body>
+    <div class="titel">tes7 - 5 Waben</div>
+    <div class="timeline-container">
+        <div class="kreis-element" style="left: 655px; top: 326px;">
+            <div class="nummer">1</div>
+            <svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="kreis-element" style="left: 206px; top: 391px;">
+            <div class="nummer">2</div>
+            <svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="kreis-element" style="left: 345px; top: 200px;">
+            <div class="nummer">3</div>
+            <svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="kreis-element" style="left: 530px; top: 270px;">
+            <div class="nummer">4</div>
+            <svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="kreis-element" style="left: 567px; top: 138px;">
+            <div class="nummer">5</div>
+            <svg class="wabe" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="15,5 45,5 55,30 45,55 15,55 5,30" 
+                         fill="white" 
+                         stroke="black" 
+                         stroke-width="2"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

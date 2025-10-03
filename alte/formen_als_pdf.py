@@ -29,7 +29,7 @@ def run():
     
     # PDF-Datei erstellen und sofort öffnen
     pdf_name = "formen_als_pdf.pdf"
-    print("📄 Erstelle PDF mit 100 Waben...")
+    print("� Erstelle PDF mit 100 sechseckigen Waben (wie Bienenwaben)...")
     
     erstelle_waben_pdf(pdf_name)  # PDF erstellen
     oeffne_pdf_datei(pdf_name)    # PDF öffnen
@@ -76,9 +76,9 @@ def erstelle_waben_pdf(dateiname):
     pdf_canvas.save()
     print(f"✅ PDF '{dateiname}' erfolgreich erstellt!")
 
-def zeichne_einzelne_wabe(canvas_objekt, x_position, y_position, waben_groesse=15):
+def zeichne_einzelne_wabe(canvas_objekt, x_position, y_position, waben_groesse=20):
     """
-    Zeichnet eine einfache Wabe (Sechseck) an der angegebenen Position.
+    Zeichnet eine perfekte sechseckige Wabe (Hexagon) - wie echte Bienenwaben! 🐝
     
     Parameter:
     - canvas_objekt: Das PDF-Canvas zum Zeichnen
@@ -90,35 +90,43 @@ def zeichne_einzelne_wabe(canvas_objekt, x_position, y_position, waben_groesse=1
     from reportlab.lib import colors
     import math
     
-    # Setze Farben für die Wabe
+    # Setze Farben für die schöne Wabe
     canvas_objekt.setStrokeColor(colors.black)  # Schwarzer Rand
-    canvas_objekt.setFillColor(colors.white)    # Weißer Inhalt
-    canvas_objekt.setLineWidth(1)               # Dünne Linie
+    canvas_objekt.setFillColor(colors.white)    # Weißer Inhalt (zum Ausmalen!)
+    canvas_objekt.setLineWidth(2)               # Etwas dickere Linie für schöne Waben
     
-    # Berechne die 6 Eckpunkte eines Sechsecks und zeichne sie
-    anzahl_ecken = 6
+    # Berechne die 6 Eckpunkte eines perfekten Sechsecks (Hexagon)
+    eckpunkte = []
     
-    # Starte einen neuen Pfad für das Sechseck
-    pfad = canvas_objekt.beginPath()
-    
-    for ecke in range(anzahl_ecken + 1):  # +1 um das Sechseck zu schließen
-        # Winkel für diese Ecke berechnen (360° / 6 Ecken = 60° pro Ecke)
-        winkel_grad = 60 * ecke
+    for ecke in range(6):
+        # Winkel für diese Ecke berechnen (Start bei 0°, dann alle 60°)
+        winkel_grad = ecke * 60  # 0°, 60°, 120°, 180°, 240°, 300°
         winkel_radians = math.radians(winkel_grad)
         
         # X- und Y-Koordinate dieser Ecke berechnen
         ecke_x = x_position + waben_groesse * math.cos(winkel_radians)
         ecke_y = y_position + waben_groesse * math.sin(winkel_radians)
         
-        if ecke == 0:
-            # Erste Ecke: Startpunkt setzen
-            pfad.moveTo(ecke_x, ecke_y)
-        else:
-            # Weitere Ecken: Linie ziehen
-            pfad.lineTo(ecke_x, ecke_y)
+        eckpunkte.append((ecke_x, ecke_y))
     
-    # Sechseck zeichnen (mit Rand und Füllung)
-    canvas_objekt.drawPath(pfad, stroke=1, fill=1)
+    # EINFACHE Methode: Zeichne das Sechseck mit Linien
+    canvas_objekt.setFillColor(colors.white)  # Weißer Hintergrund
+    
+    # Beginne neuen Pfad
+    pfad = canvas_objekt.beginPath()
+    
+    # Gehe zum ersten Punkt
+    pfad.moveTo(eckpunkte[0][0], eckpunkte[0][1])
+    
+    # Zeichne Linien zu allen anderen Punkten
+    for i in range(1, 6):
+        pfad.lineTo(eckpunkte[i][0], eckpunkte[i][1])
+    
+    # Schließe das Sechseck (zurück zum ersten Punkt)
+    pfad.closePath()
+    
+    # Zeichne das gefüllte und umrandete Sechseck
+    canvas_objekt.drawPath(pfad, stroke=1, fill=1)  # stroke=Rand, fill=Füllung
 
 ########################################
 # DATEI- UND ORDNER-FUNKTIONEN
