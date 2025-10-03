@@ -1,0 +1,25 @@
+Log Datei
+=====================
+Aufruf: 23 - Datum: 2025-10-03 10:52:44 - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+Aufruf: 22 - Datum: 2025-10-03 10:47:56
+Aufruf: 21 - Datum: 2025-10-03 10:47:56
+Aufruf: 20 - Datum: 2025-10-03 10:45:42
+Aufruf: 19 - Datum: 2025-10-03 10:45:42
+Aufruf: 18 - Datum: 2025-10-03 10:37:28
+Aufruf: 17 - Datum: 2025-10-03 10:35:06
+Aufruf: 16 - Datum: 2025-10-03 10:35:06
+Aufruf: 15 - Datum: 2025-10-03 10:34:53
+Aufruf: 14 - Datum: 2025-10-03 10:34:45
+Aufruf: 13 - Datum: 2025-10-03 10:34:33
+Aufruf: 12 - Datum: 2025-10-03 10:34:29
+Aufruf: 11 - Datum: 2025-10-03 10:32:13
+Aufruf: 10 - Datum: 2025-10-03 10:30:07
+Aufruf: 9 - Datum: 2025-10-03 10:30:07
+Aufruf: 8 - Datum: 2025-10-03 10:24:34
+Aufruf: 7 - Datum: 2025-10-03 10:24:24
+Aufruf: 6 - Datum: 2025-10-03 10:21:32
+Aufruf: 5 - Datum: 2025-10-03 10:18:23
+Aufruf: 4 - Datum: 2025-10-03 10:17:22
+Aufruf: 3 - Datum: 2025-10-03 10:15:43
+Aufruf: 2 - Datum: 2025-10-03 10:15:43
+Aufruf: 1 - Datum: 2025-10-03 10:08:42
