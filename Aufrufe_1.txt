@@ -1,5 +1,44 @@
 Log Datei
 =====================
+call: 63 - date: 2025-10-03 16:37:54 - what: minus_vor_der_klammer.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\minus_vor_der_klammer.py
+call: 62 - date: 2025-10-03 16:37:52 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 61 - date: 2025-10-03 16:37:19 - what: minus_vor_der_klammer.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\minus_vor_der_klammer.py
+call: 60 - date: 2025-10-03 16:37:19 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 59 - date: 2025-10-03 16:37:15 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 58 - date: 2025-10-03 16:37:14 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 57 - date: 2025-10-03 16:37:04 - what: klammerrechnung.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\klammerrechnung.py
+call: 56 - date: 2025-10-03 16:36:51 - what: minus_vor_der_klammer.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\minus_vor_der_klammer.py
+call: 55 - date: 2025-10-03 16:35:14 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 54 - date: 2025-10-03 11:11:06 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 53 - date: 2025-10-03 11:10:46 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 52 - date: 2025-10-03 11:10:46 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 51 - date: 2025-10-03 11:09:25 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 50 - date: 2025-10-03 11:09:25 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 49 - date: 2025-10-03 11:09:25 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 48 - date: 2025-10-03 11:09:25 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 47 - date: 2025-10-03 11:09:21 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 46 - date: 2025-10-03 11:09:21 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 45 - date: 2025-10-03 11:09:21 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 44 - date: 2025-10-03 11:09:21 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 43 - date: 2025-10-03 11:08:29 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 42 - date: 2025-10-03 11:08:29 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 41 - date: 2025-10-03 11:07:52 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 40 - date: 2025-10-03 11:07:52 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 39 - date: 2025-10-03 11:07:52 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 38 - date: 2025-10-03 11:07:50 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 37 - date: 2025-10-03 11:07:50 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 36 - date: 2025-10-03 11:07:50 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 35 - date: 2025-10-03 11:07:48 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 34 - date: 2025-10-03 11:07:48 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 33 - date: 2025-10-03 11:07:48 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 32 - date: 2025-10-03 11:07:36 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 31 - date: 2025-10-03 11:07:36 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 30 - date: 2025-10-03 11:07:36 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
+call: 29 - date: 2025-10-03 11:02:46 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 28 - date: 2025-10-03 11:02:46 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 27 - date: 2025-10-03 10:58:23 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 26 - date: 2025-10-03 10:57:29 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
+call: 25 - date: 2025-10-03 10:57:29 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
 call: 24 - date: 2025-10-03 10:55:47 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
 Aufruf: 23 - Datum: 2025-10-03 10:52:44 - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
 Aufruf: 22 - Datum: 2025-10-03 10:47:56

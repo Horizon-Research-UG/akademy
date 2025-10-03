@@ -2,12 +2,12 @@ import inspect
 
 # create_log_file
 
-dateiname = "Aufrufe_1.txt"
+dateiname = "anki_logn.txt"
 
 def create_log_file():
     try:
         with open(dateiname, "x") as file:
-            file.write("Log Datei\n")
+            file.write("Anki log\n")
             file.write("=====================\n")
     except FileExistsError:
         pass
@@ -65,3 +65,9 @@ def run():
 # Nur ausführen wenn Datei direkt gestartet wird
 if __name__ == "__main__":
     run()
+
+run()
+
+import time
+print("Anki tast check")
+time.sleep(3)

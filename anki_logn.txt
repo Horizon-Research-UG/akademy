@@ -1,0 +1,7 @@
+Anki log
+=====================
+call: 5 - date: 2025-10-03 17:28:09 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 4 - date: 2025-10-03 17:28:09 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 3 - date: 2025-10-03 17:27:13 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 2 - date: 2025-10-03 17:25:39 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py
+call: 1 - date: 2025-10-03 17:25:10 - what: anki_log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\sublogs\anki_log.py

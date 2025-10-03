@@ -2,6 +2,11 @@
 # start log 
 ########################################
 
+import sys
+import os
+# Füge das übergeordnete Verzeichnis zum Python-Pfad hinzu
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import log
 log.run()
 
@@ -15,15 +20,21 @@ import time
 import random
 
 def run():
-    runden = int(input("Wie viele Runden möchtest du spielen? "))
+    runden = int(input("Spiel 1: (runden)goal: "))
     mana = int(input("Gib dein Mana ein (Zahl): "))
     for _ in range(runden): 
         quest1(mana)
         quest2(mana)
         quest3(mana)
-        print(f"Runde {_ + 1} abgeschlossen!")
+        print(f"main loop - Runde {_ + 1} abgeschlossen!")
         print("_______________________________")
-        time.sleep(1)
+        time.sleep(3)
+
+
+#############################################
+# Ende Hauptprogramm
+#############################################
+# run quests
 
 
 
@@ -33,7 +44,7 @@ def run():
 
 
 def quest1(mana):
-    print("Spiel 2 - Klammer 1 - (a+b)*e")
+    print("s1.1 - Klammer 1 - (a+b)*e")
     import time
     time.sleep(4)
     a = random.randint(-mana, mana)
@@ -42,9 +53,9 @@ def quest1(mana):
     x = (a + b) * e
 
     if input(f"Was ist ({a} + {b}) * {e} ? ") == str(x):
-        print("Richtig")
+        print("s1.1 - Richtig")
     else:
-        print("Falsch, die richtige Antwort ist:", x)
+        print("s1.1 - Falsch, die richtige Antwort ist:", x)
 
 #############################################
 # Ende Klammerrechnung Quest 1
@@ -53,7 +64,7 @@ def quest1(mana):
 
 # quest  2 - klammerrechnung 2
 def quest2(mana):
-    print("Klammer 2 - (a+b)*(e+f)")
+    print("s1.2 - Klammer 2 - (a+b)*(e+f)")
     a = random.randint(-mana, mana)
      #mit der einfach gerechnet werden kann
     b = random.randint(-mana, mana)
@@ -62,9 +73,9 @@ def quest2(mana):
     x = (a + b) * (e + f)
 
     if input(f"Was ist ({a} + {b}) * ({e} + {f}) ? ") == str(x):
-        print("Richtig")
+        print("s1.2 - Richtig")
     else:
-        print("Falsch, die richtige Antwort ist:", x)   
+        print("s1.2 - Falsch, die richtige Antwort ist:", x)
 #############################################
 # Ende Klammerrechnung Quest 2
 
@@ -77,15 +88,15 @@ def quest2(mana):
 #############################################
 # quest  3 - klammerrechnung mit einer variablen a
 def quest3(mana):
-    print("Klammer 3 - (a+b)*a")
+    print("s1.3 - Klammer 3 - (a+b)*a")
     a = random.randint(-mana, mana)
     b = random.randint(-mana, mana)
     x = (a + b) * a
 
     if input(f"Was ist ({a} + {b}) * {a} ? ") == str(x):
-        print("Richtig")
+        print("s1.3 - Richtig")
     else:
-        print("Falsch, die richtige Antwort ist:", x)
+        print("s1.3 - Falsch, die richtige Antwort ist:", x)
 
 
 

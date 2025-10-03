@@ -1,3 +1,4 @@
+
 # pfad zur main.py
 #
 # Programm zum erstellen eines Replikanten Bewusstsein 
@@ -12,6 +13,8 @@ import time
 
 import log
 log.run()
+print("log gestartet")
+time.sleep(2)
 
 #################################
 # log ende
