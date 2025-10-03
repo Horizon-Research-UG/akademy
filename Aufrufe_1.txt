@@ -1,5 +1,6 @@
 Log Datei
 =====================
+call: 24 - date: 2025-10-03 10:55:47 - what: log.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
 Aufruf: 23 - Datum: 2025-10-03 10:52:44 - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\log.py
 Aufruf: 22 - Datum: 2025-10-03 10:47:56
 Aufruf: 21 - Datum: 2025-10-03 10:47:56

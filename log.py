@@ -36,7 +36,9 @@ def count_calls():
 ### 
 # bei new entry - add calling script
     calling_script = inspect.getframeinfo(inspect.currentframe().f_back).filename
-    new_entry = f"Aufruf: {count} - Datum: {date} - Script: {calling_script}\n"
+    #what = #only the last name of the skript
+    what = calling_script.split("/")[-1].split("\\")[-1]  # Handle
+    new_entry = f"call: {count} - date: {date} - what: {what} - Script: {calling_script}\n"
 
     # Neue Einträge OBEN einfügen (nach Header)
     if len(lines) >= 2:
