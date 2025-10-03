@@ -1,8 +1,21 @@
 import inspect
+import os
 
 # create_log_file
 
-dateiname = "Aufrufe_1.txt"
+# 1. "Wo bin ich?" - Finde heraus wo log.py liegt
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 2. "Baue den Pfad zum logs-Ordner"
+logs_dir = os.path.join(script_dir, "logs")
+
+# 3. "Baue den kompletten Pfad zur Log-Datei"
+dateiname = os.path.join(logs_dir, "Aufrufe_.txt")
+
+# 4. "Falls der logs-Ordner nicht da ist, erstelle ihn"
+os.makedirs(logs_dir, exist_ok=True)
+
+
 
 def create_log_file():
     try:
