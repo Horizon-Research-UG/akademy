@@ -9,6 +9,9 @@ import sys
 import ausmalbuch_einfach as ausmalbuch
 import subfuc.klammerrechnung as klammerrechnung
 import subfuc.minus_vor_der_klammer as minus_vor_der_klammer
+import log
+import subfuc.luh.luh1a1 as test1a1
+log.run()
 
 
 def run():
@@ -18,7 +21,8 @@ def run():
         print("1. Ausmalbuch")
         print("2. Minus vor der Klammer")
         print("3. Klammerrechnung")
-        print("4. Beenden")
+        print("4. 1a1")
+        print("z. Beenden")
         auswahl = input("Gib die Zahl deiner Wahl ein: ")
 
         if auswahl == '1':
@@ -28,6 +32,8 @@ def run():
         elif auswahl == '3':
             klammerrechnung.run()
         elif auswahl == '4':
+            test1a1.run()
+        elif auswahl == 'z':
             print("Programm wird beendet. Auf Wiedersehen!")
             break
         else:
