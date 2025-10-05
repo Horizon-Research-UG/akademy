@@ -1,5 +1,11 @@
 Log Datei
 =====================
+call: 109 - date: 2025-10-06 00:59:25 - what: menu.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\menu.py
+call: 108 - date: 2025-10-06 00:59:25 - what: luh1a1.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\luh\luh1a1.py
+call: 107 - date: 2025-10-06 00:59:25 - what: minus_vor_der_klammer.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\minus_vor_der_klammer.py
+call: 106 - date: 2025-10-06 00:59:25 - what: klammerrechnung.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\klammerrechnung.py
+call: 105 - date: 2025-10-06 00:59:25 - what: ausmalbuch_einfach.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\ausmalbuch_einfach.py
+call: 104 - date: 2025-10-06 00:59:23 - what: main.py - Script: c:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\main.py
 call: 103 - date: 2025-10-03 21:42:49 - what: menu.py - Script: C:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\menu.py
 call: 102 - date: 2025-10-03 21:42:49 - what: luh1a1.py - Script: C:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\luh\luh1a1.py
 call: 101 - date: 2025-10-03 21:42:49 - what: minus_vor_der_klammer.py - Script: C:\Users\49176\OneDrive - Heiner Reinecke\Mit PC verknüpft\Desktop\NeuroGames - nicht verschieben\akademy\subfuc\minus_vor_der_klammer.py

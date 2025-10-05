@@ -31,6 +31,12 @@ menu.run()
 
 
 
+###############################
+# Learn forever 
+###############################
+import learn_forever
+learn_forever.run()
+
 
 
 

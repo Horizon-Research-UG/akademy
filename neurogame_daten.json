@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "item_20251006_012217_1513",
+      "frage": "Was ist Active Recall?",
+      "antwort": "Aktives Abrufen von Wissen aus dem Gedächtnis ohne Hilfsmittel",
+      "letztes_review": "2025-10-06T01:25:50.787224",
+      "intervall_tage": 1,
+      "wiederholungen": 0,
+      "bewertungen": [
+        {
+          "datum": "2025-10-06T01:25:50.787234",
+          "note": 2
+        }
+      ],
+      "erstellt_am": "2025-10-06T01:22:17.394357"
+    },
+    {
+      "id": "item_20251006_012217_5046",
+      "frage": "Was bedeutet Spaced Repetition?",
+      "antwort": "Wiederholung in optimalen Zeitabständen basierend auf Vergessenskurve",
+      "letztes_review": "2025-10-06T01:25:59.613240",
+      "intervall_tage": 1,
+      "wiederholungen": 0,
+      "bewertungen": [
+        {
+          "datum": "2025-10-06T01:25:59.613243",
+          "note": 2
+        }
+      ],
+      "erstellt_am": "2025-10-06T01:22:17.394931"
+    },
+    {
+      "id": "item_20251006_012217_1917",
+      "frage": "Was ist der Hauptvorteil von Feedback-Schleifen?",
+      "antwort": "Anpassung der Lernintervalle basierend auf Schwierigkeit",
+      "letztes_review": "2025-10-06T01:25:39.912154",
+      "intervall_tage": 1,
+      "wiederholungen": 0,
+      "bewertungen": [
+        {
+          "datum": "2025-10-06T01:25:39.912161",
+          "note": 1
+        }
+      ],
+      "erstellt_am": "2025-10-06T01:22:17.395387"
+    },
+    {
+      "id": "item_20251006_012217_9946",
+      "frage": "Warum funktioniert TimeQuest so gut?",
+      "antwort": "Kombination aus Active Recall, Spaced Repetition und Gamification",
+      "letztes_review": "2025-10-06T01:26:11.845587",
+      "intervall_tage": 1,
+      "wiederholungen": 0,
+      "bewertungen": [
+        {
+          "datum": "2025-10-06T01:26:11.845590",
+          "note": 1
+        }
+      ],
+      "erstellt_am": "2025-10-06T01:22:17.395803"
+    }
+  ],
+  "gespeichert_am": "2025-10-06T01:26:11.846151"
+}

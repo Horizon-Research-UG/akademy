@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "item_20251006_010647_1715",
+      "prompt": "die zauberformel",
+      "answer": "sieht bild",
+      "image_path": "clipboard_images/clipboard_20251006_010604.png",
+      "last_review": "2025-10-06T01:18:26.943428",
+      "interval_days": 1,
+      "ease_factor": 2.3,
+      "repetitions": 0,
+      "feedback_log": [
+        {
+          "timestamp": "2025-10-06T01:18:26.943432",
+          "score": 1,
+          "interval_before": 1
+        }
+      ],
+      "created_at": "2025-10-06T01:06:47.905361"
+    }
+  ],
+  "last_save": "2025-10-06T01:18:42.022769"
+}
