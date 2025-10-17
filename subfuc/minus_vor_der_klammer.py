@@ -3,8 +3,8 @@ import os
 # Füge das übergeordnete Verzeichnis zum Python-Pfad hinzu
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import log
-log.run()
+#import log
+#log.run()
 
 import time
 import random
